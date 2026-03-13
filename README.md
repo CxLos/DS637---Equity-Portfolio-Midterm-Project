@@ -27,7 +27,7 @@ This project is part of the DS 637-852 (Python & Mathematics) course midterm ass
 
 **Objectives:**
 - Analyze the performance of 10 technology stocks
-- Calculate key portfolio metrics (returns, volatility)
+- Calculate key portfolio metrics
 - Visualize stock price trends and correlations
 - Assess risk and diversification opportunities
 
@@ -50,7 +50,7 @@ The project analyzes 2018 historical stock data for the following companies:
 | SAP    | SAP SE                     | Enterprise Tech  |
 | TSLA   | Tesla Inc.                 | Electric Vehicles|
 
-**Data Source:** Historical stock prices (2018)  
+**Data Source:** yfinance (2018)  
 **Format:** CSV files containing daily OHLCV (Open, High, Low, Close, Volume) data
 
 ---
@@ -59,10 +59,8 @@ The project analyzes 2018 historical stock data for the following companies:
 
 - **Python 3.10+** - Core programming language
 - **Jupyter Notebook** - Interactive analysis environment
-- **NumPy** - Array computations and numerical operations
 - **Pandas** - Data manipulation and analysis
-- **Matplotlib** - Data visualization
-- **Seaborn** - Statistical visualizations
+- **Plotly Graph Objects** - Data visualization
 
 ---
 
@@ -185,36 +183,14 @@ The analysis compared two distinct trading strategies applied to the technology 
 - **Q4 (Late Year):** Both strategies entered a downward trend, experiencing declining portfolio values
 - **Final Results:** While both strategies resulted in a net loss compared to the initial investment, the "buying low" strategy proved superior in capital preservation
 
-**Key Takeaway:** In a bearish market environment, the "buying low" strategy demonstrated better risk management by minimizing losses. Both strategies lost money relative to the starting balance, but buying low resulted in a smaller overall loss, making it the more effective defensive strategy during the market downturn.
+**Key Takeaway:** The "buying low" strategy demonstrated better risk management by minimizing losses. Both strategies lost money relative to the starting balance, but buying low resulted in a smaller overall loss, making it the more effective defensive strategy during the market downturn.
 
 ---
 
-## 📈 Visualizations
+## 👤 Contributors
 
-The project includes various visualizations:
-- Line charts of stock price movements
-
----
-
-## 👤 Author
-
-**CxLos**  
-NJIT - M.S. Data Science  
-DS 637-852: Python & Mathematics  
-Spring 2026
+**Carlos Bautista**  
+**Subhash Boreddy**  
+**Sahaj Singh**  
 
 ---
-
-## 📚 References
-
-- Course materials from DS 637-852
-
----
-
-## 🙏 Acknowledgments
-
-- 
-
----
-
-**Last Updated:** March 10, 2026
